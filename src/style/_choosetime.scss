@@ -1,0 +1,26 @@
+$mainblue:#13dceb;
+$mainpink:#db9ad5;
+$maincolor:#609fd6;
+
+.choosetime-container{
+    margin: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $maincolor;
+    font-family: 'Emilys Candy', cursive;
+    h3{
+        margin-bottom: 1rem;
+    }
+    input{
+        width: 100%;
+        margin: .5rem 0;
+        padding: .5rem .5rem;
+        border: 2px solid $mainpink;
+    }
+    .btn-boka{
+        width: 100%;
+        background-color: $mainblue;
+        margin-top: 2rem;
+    }
+}

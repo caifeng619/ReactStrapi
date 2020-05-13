@@ -1,0 +1,47 @@
+$mainblue:#13dceb;
+$mainpink:#db9ad5;
+$maincolor:#609fd6;
+
+.dash-board{
+    h2{
+        color: #609fd6;
+        margin: 1rem 0 0 2rem;
+    }
+    .produkter-dash{
+        display: flex;
+        justify-content: space-between;
+        background-color: $maincolor;
+        width: 20rem;
+        height: 10rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        padding: 2rem;
+        color: white;
+        
+        h3, h4{
+            color: white;
+            text-align: center;
+        }
+        svg{
+            margin-top: 1.5rem;
+            color: #3581c4;
+            height: 5rem;
+            width: 5rem;
+        }
+    }
+    .merinfo{
+        background-color: #3581c4;
+        width: 20rem;
+        height: 2rem;
+        margin-left: 1rem;
+        a{
+            color: white;
+            text-decoration: none;
+        } 
+        a:hover{
+            color: #db9ad5;
+        }
+        text-align: center;
+    }
+}
+

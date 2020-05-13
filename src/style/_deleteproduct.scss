@@ -1,0 +1,24 @@
+$mainblue:#13dceb;
+$mainpink:#db9ad5;
+$maincolor:#609fd6;
+
+.delete-form-container{
+    display: flex;
+    justify-content: center;
+    .delete-form{
+        margin-top: 20vh;
+        padding: 1rem .5rem;
+        height: 10rem;
+        width: 20rem;
+        background-color: white;
+        border: 2px solid $mainpink;
+    }
+    button{
+        margin-top: 1rem;
+        width: 8rem;
+        margin-left: 1rem;
+        border: none;
+        background-color: $mainblue;
+    }
+    
+}

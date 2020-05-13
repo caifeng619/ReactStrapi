@@ -1,0 +1,22 @@
+$mainblue:#13dceb;
+$mainpink:#db9ad5;
+$maincolor:#609fd6;
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+    .table-container{
+        margin-bottom: 2rem;
+    }
+    .pagination{
+        padding-bottom: 4rem;
+        display: flex;
+        justify-content: center;
+        button{
+            border: none;
+            padding: .3rem .5rem;
+            background-color: $mainblue;
+            border: 1px solid $mainpink;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+$mainblue:#13dceb;
+$mainpink:#db9ad5;
+$maincolor:#609fd6;
+
+.bokningar-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    .card{
+        border: 2px solid $mainpink;
+    }
+    .btn-boka{
+        background-color: $mainblue;
+        width: 100%;
+        margin-top: 2rem;
+        border-radius: 5rem;
+    }
+    a{
+        color: black;
+    }
+    p{
+        margin-bottom: 1rem;
+    }
+    h5{
+        margin-bottom: 2rem;
+    }
+}
+
+
+/* responsive break piont */
+@media screen and (max-width:786px){
+
+    .bokningar-container{
+       margin: 2rem;
+       flex-direction: column;
+    }
+    .card{
+        margin-bottom: 2rem;
+    }
+ }

@@ -1,0 +1,49 @@
+$mainblue:#13dceb;
+$mainpink:#db9ad5;
+$maincolor:#609fd6;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.step{
+    width: 100%;
+    .step-links{
+        font-family: 'Emilys Candy', cursive;
+        background-color: $mainpink;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        li{
+            width: 33.3%;
+            padding-top: 0.8rem;
+            height: 3.5rem;
+            text-align: center;
+        }
+        li a{
+            font-size: 1.1rem;
+            text-decoration: none;
+            color:white;
+        }
+        .first{
+            border-left: 2px solid white;
+            border-right: 2px solid white;
+        }
+        .second{
+            border-right: 2px solid white;
+        }
+        .third{
+            border-right: 2px solid white;
+        }
+    }
+}
+
+/* responsive break piont */
+@media screen and (max-width:786px){
+
+    .tjänster-container{
+       flex-direction: column;
+    }
+ }
+

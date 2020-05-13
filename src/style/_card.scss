@@ -1,0 +1,31 @@
+$mainblue:#13dceb;
+$mainpink:#db9ad5;
+$maincolor:#609fd6;
+
+.card-container{
+   font-family: 'Emilys Candy', cursive;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+   grid-column-gap: 3rem;
+   grid-row-gap: 3rem;
+   margin: 3rem 1rem;
+   .card{
+      border-bottom-left-radius: 10px;
+      border: 2px solid $mainpink;
+   }
+   .btn-boka{
+      background-color: $mainblue;
+      width: 50%;
+   }
+   span{
+      margin-left: 2.5rem;
+      font-size: 1.2rem;
+   }
+}
+/* responsive break piont */
+@media screen and (max-width:786px){
+
+   .tjänster-container{
+      flex-direction: column;
+   }
+}

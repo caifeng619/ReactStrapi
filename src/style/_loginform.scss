@@ -1,0 +1,52 @@
+$mainblue:#13dceb;
+$mainpink:#db9ad5;
+$maincolor:#609fd6;
+
+.loginform-container{
+    font-family: 'Emilys Candy', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .error{
+        color: red;
+    }
+    p{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    svg{
+        width: 2rem;
+        height: 2rem;
+        color: $maincolor;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $mainpink;
+        padding: 2rem;
+        input{
+            margin-top: .5rem;
+            padding: .5rem 1rem;
+            width: 100%;
+        }
+        button{
+            margin-top: 1rem;
+            padding: .5rem 1rem;
+            border: none;
+            width: 100%;
+            background-color: $mainblue;
+        }
+    }
+    .btn-change{
+        margin-top: 1rem;
+        padding: .5rem 1rem;
+        border: none;
+        background-color: $mainblue;
+    }
+    
+    
+}
